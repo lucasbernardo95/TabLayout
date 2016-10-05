@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         tabLayout.getTabAt(1).setIcon(android.R.drawable.star_off);
 
                         tabLayout.getTabAt(2).setIcon(android.R.drawable.btn_star_big_on);
-                        break;
+                        break;//
                     default:
                         return;
                 }

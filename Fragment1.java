@@ -15,5 +15,5 @@ public class Fragment1 extends Fragment {
         View v = inflater.inflate(R.layout.fragment_1, container, false); //logica do fragment
         return v;
     }
-
+//
 }

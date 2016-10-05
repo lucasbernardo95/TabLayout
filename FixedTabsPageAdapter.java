@@ -29,7 +29,7 @@ public class FixedTabsPageAdapter  extends FragmentPagerAdapter {
                 return new Fragment3();
             default: return null;
         }
-    }
+    }//
 
     //Título de cada aba
     public CharSequence getPageTitle(int position){
