@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager vp = (ViewPager) findViewById(R.id.pager);
         PagerAdapter pa = new FixedTabsPageAdapter(getSupportFragmentManager());//passa como parâmetro o gerenciador de fragments
-        vp.setAdapter(pa);
+        vp.setAdapter(pa);////
         tabLayout = (TabLayout) findViewById(R.id.tab);
         tabLayout.setupWithViewPager(vp);
 
